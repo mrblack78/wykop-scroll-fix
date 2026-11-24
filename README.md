@@ -27,3 +27,8 @@ Rozszerzenie:
 ## Uwagi
 
 Jeśli wykop zmieni kod (nazwy `block-alert`, `setBlockAlert`, `ensureCompatibility`), rozszerzenie może wymagać aktualizacji.
+
+## Licencja
+
+Wtyczkę możesz dowolnie używać, kopiować, modyfikować i rozpowszechniać – także we własnych projektach.
+Kod udostępniony jest na licencji [MIT](LICENSE).
