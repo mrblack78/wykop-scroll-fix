@@ -1,0 +1,5 @@
+/* nakładka anty-adblock */
+section.block-alert { display: none !important; }
+/* body:has(section.block-alert){overflow:hidden} -> przywróć przewijanie */
+body:has(section.block-alert) { overflow: visible !important; }
+html.no-scrollbar { overflow-y: scroll !important; }

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Wykop – odblokuj scroll",
+  "version": "1.0",
+  "description": "Wyłącza nakładkę 'Strona nie wczytała się poprawnie' i zamrażanie aplikacji na wykop.pl",
+  "content_scripts": [
+    {
+      "matches": ["https://wykop.pl/*", "https://*.wykop.pl/*"],
+      "css": ["fix.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://wykop.pl/*", "https://*.wykop.pl/*"],
+      "js": ["fix.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
