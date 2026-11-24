@@ -18,7 +18,7 @@ Rozszerzenie:
 
 ## Instalacja
 
-1. Pobierz repozytorium: **Code → Download ZIP** i rozpakuj (albo `git clone`).
+1. Pobierz gotowy plik [**wykop-scroll-fix-v1.0.zip**](https://github.com/mrblack78/wykop-scroll-fix/releases/latest) z zakładki **Releases** i rozpakuj.
 2. Otwórz `opera://extensions` (w Chrome: `chrome://extensions`).
 3. Włącz **Tryb programisty**.
 4. Kliknij **Załaduj rozpakowane** i wskaż rozpakowany folder.
